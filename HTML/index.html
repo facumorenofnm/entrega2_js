@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Ropa</title>
+  <link rel="stylesheet" href="../CSS/styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <h1>Tienda de Ropa</h1>
+    </div>
+
+    <!-- Menú hamburguesa -->
+    <div class="hamburguesa" id="hamburguesa">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="nav-categorias">
+      <ul>
+        <li><a href="#" data-categoria="Todos">Todos</a></li>
+        <li><a href="#" data-categoria="Remeras">Remeras</a></li>
+        <li><a href="#" data-categoria="Buzos">Buzos</a></li>
+        <li><a href="#" data-categoria="Pantalones">Pantalones</a></li>
+      </ul>
+    </nav>
+
+    <!-- Icono de carrito con contador -->
+    <div class="carrito-icono">
+      <i class="fas fa-shopping-cart"></i>
+      <span id="contador-header">0</span>
+    </div>
+  </header>
+
+  <main>  
+    <div id="contenedor-productos" class="grid"></div>
+    <h2>Carrito de compras (<span id="contador-main">0</span>)</h2>
+    <div id="carrito" class="carrito"></div>
+    <button id="vaciar-carrito">Vaciar carrito</button>
+  </main>
+
+  <script src="../JS/app.js"></script>
+</body>
+</html>
