@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "nombre": "Remera Basica",
+      "categoria": "Remeras",
+      "precio": 15000,
+      "talleDisponible": ["S", "M", "L", "XL"],
+      "imagen": "../IMAGENES/remera_basica.webp",
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "nombre": "Remera Oversize",
+      "categoria": "Remeras",
+      "precio": 18000,
+      "talleDisponible": ["S", "M", "L", "XL"],
+      "imagen": "../IMAGENES/remera_oversize.webp",
+      "stock": 8
+    },
+    {
+      "id": 3,
+      "nombre": "Remera Manga Larga",
+      "categoria": "Remeras",
+      "precio": 18000,
+      "talleDisponible": ["S", "M", "L", "XL"],
+      "imagen": "../IMAGENES/remera_manga_larga.webp",
+      "stock": 5
+    },
+    {
+      "id": 4,
+      "nombre": "Buzo Cuello Redondo",
+      "categoria": "Buzos",
+      "precio": 34000,
+      "talleDisponible": ["S", "M", "L", "XL"],
+      "imagen": "../IMAGENES/buzo_redondo.webp",
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "nombre": "Buzo Con Capucha",
+      "categoria": "Buzos",
+      "precio": 38000,
+      "talleDisponible": ["S", "M", "L", "XL"],
+      "imagen": "../IMAGENES/buzo_capucha.webp",
+      "stock": 12
+    },
+    {
+      "id": 6,
+      "nombre": "Jogging Recto",
+      "categoria": "Pantalones",
+      "precio": 30000,
+      "talleDisponible": ["S", "M", "L"],
+      "imagen": "../IMAGENES/jogging_recto.webp",
+      "stock": 9
+    }
+  ]
+  

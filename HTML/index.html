@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tienda de Ropa</title>
+  <meta name="description" content="Tienda de ropa online con remeras, buzos y pantalones. Encontrá lo mejor en indumentaria basica. Envíos a todo el país.">
   <link rel="stylesheet" href="../CSS/styles.css" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
   <header class="header">
@@ -13,7 +15,6 @@
       <h1>Tienda de Ropa</h1>
     </div>
 
-    <!-- Menú hamburguesa -->
     <div class="hamburguesa" id="hamburguesa">
       <span></span>
       <span></span>
@@ -29,9 +30,8 @@
       </ul>
     </nav>
 
-    <!-- Icono de carrito con contador -->
     <div class="carrito-icono">
-      <i class="fas fa-shopping-cart"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
       <span id="contador-header">0</span>
     </div>
   </header>
@@ -43,6 +43,11 @@
     <button id="vaciar-carrito">Vaciar carrito</button>
   </main>
 
+  <button id="boton-carrito-flotante" class="carrito-flotante">
+    🛒 <span id="contador-flotante">0</span>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="../JS/app.js"></script>
 </body>
 </html>
